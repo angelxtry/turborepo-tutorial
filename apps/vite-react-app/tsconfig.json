@@ -1,0 +1,14 @@
+{
+  "extends": "tsconfig/vite.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "vite.config.ts",
+    "src/**/*",
+    "styles/globals.css"
+  ],
+  "exclude": ["node_modules", "dist", ".turbo"]
+}
